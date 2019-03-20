@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 
 client.on("message", message => {
- if (message.content === "f!help") {
+ if (message.content === "sr!help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -20,9 +20,9 @@ Special orders ان برفكس الاوامر المميزه او
 
 يختلف عن جميع الاوامر 
 Special orders برفكس الاوامر المميزه او 
-f!!
+sr!!
 اما برفكس باقي الاوامر
-f!
+sr!
 ***
 `)
 
@@ -35,7 +35,7 @@ message.author.sendEmbed(embed)
  
  
 client.on("message", message => {
- if (message.content === "f!help") {
+ if (message.content === "sr!help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -43,7 +43,7 @@ client.on("message", message => {
 
 ***__وصف عن البوت__***
 **
-Fire bot 
+SR bot 
 متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
 خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
 بصوره
@@ -58,58 +58,58 @@ Fire bot
 
         ***__General orders__***
 **
-『f!id / معلومات عن حسابك』
-『f!draw / يكرر كلامك في صوره』
-『f!embed / يكرر كلامك بمبيد』
-『f!roles / يعرض لك الرتب و عددها』
-『f!rooms / يعرض لك الرومات وعددها』
-『f!server / معلومات عن السيرفر』
-『f!animal / يعطيك صور حيوانات』
-『f!image / يعرض صوره السيرفر』
-『f!avatar / يعرض صورتك او صوره شخص』
-『f!time / يعرض لك الوقت』
-『f!date / يعرض لك التاريخ』
-『f!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
+『sr!id / معلومات عن حسابك』
+『sr!draw / يكرر كلامك في صوره』
+『sr!embed / يكرر كلامك بمبيد』
+『sr!roles / يعرض لك الرتب و عددها』
+『sr!rooms / يعرض لك الرومات وعددها』
+『sr!server / معلومات عن السيرفر』
+『sr!animal / يعطيك صور حيوانات』
+『sr!image / يعرض صوره السيرفر』
+『sr!avatar / يعرض صورتك او صوره شخص』
+『sr!time / يعرض لك الوقت』
+『sr!date / يعرض لك التاريخ』
+『sr!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
 **
 
         ***__Bot orders__***
 **
-『f!ping / يعرض لك سرعه اتصال البوت』
-『f!uptime / يعرض لك صار للبوت كم شغال』
-『f!support / سيرفر الدعم القني و المساعده』
-『f!invite / اضافه البوت』
-『f!members / حاله الاعضاء』
-『f!bot / معلومات عن البوت』
+『sr!ping / يعرض لك سرعه اتصال البوت』
+『sr!uptime / يعرض لك صار للبوت كم شغال』
+『sr!support / سيرفر الدعم القني و المساعده』
+『sr!invite / اضافه البوت』
+『sr!members / حاله الاعضاء』
+『sr!bot / معلومات عن البوت』
 **
 
         ***__Administrative Orders__***
 **
-『f!kick / كيك』
-『f!ban / بان』
-『f!mute /ميوت』
-『f!unmute /فك الميوت』
-『f!mutechannel /قفل الشات』
-『f!unmutechannel /فتح الشات』
-『f!add.r / اضافه رتبه』
-『f!delet / مسح روم』
-『f!color 50 /انشاء 50 لون』
-『f!color 100/انشاء 100 لون』
-『f!color 140/انشاء 140 لوم』
-『f!ct /انشاء روم كتابي』4
-『f!cv /انشاء روم صوتي』
-『f!bc /برودكاست』
+『sr!kick / كيك』
+『sr!ban / بان』
+『sr!mute /ميوت』
+『sr!unmute /فك الميوت』
+『sr!mutechannel /قفل الشات』
+『sr!unmutechannel /فتح الشات』
+『sr!add.r / اضافه رتبه』
+『sr!delet / مسح روم』
+『sr!color 50 /انشاء 50 لون』
+『sr!color 100/انشاء 100 لون』
+『sr!color 140/انشاء 140 لوم』
+『sr!ct /انشاء روم كتابي』4
+『sr!cv /انشاء روم صوتي』
+『sr!bc /برودكاست』
 **
 
 
         ***__Games orders__***
  **       
-『f!لعبه صراحه / صراحه』
-『f!لعبه مريم / مريم』
-『f!لعبه خواطر / خواطر』
-『f!يعطيك شعر عن الحب / حب』
-『f!يخيرك بين شي وشي / لو خيروك』
-『f!يعطيك عقاب و لازم تنفذه / عقاب』
-『f!لعبه اسئله / كت تويت』
+『sr!لعبه صراحه / صراحه』
+『sr!لعبه مريم / مريم』
+『sr!لعبه خواطر / خواطر』
+『sr!يعطيك شعر عن الحب / حب』
+『sr!يخيرك بين شي وشي / لو خيروك』
+『sr!يعطيك عقاب و لازم تنفذه / عقاب』
+『sr!لعبه اسئله / كت تويت』
 **
    
         
@@ -187,7 +187,7 @@ const Sra7a = [
 	 'صراحه  |  ما هي أمنياتك المُستقبلية؟‏',
 ]
    client.on('message', message => {
- if (message.content.startsWith('f!صراحه')) {
+ if (message.content.startsWith('sr!صراحه')) {
      if(!message.channel.guild) return message.reply('** This command only for servers **');
   var client= new Discord.RichEmbed()
   .setTitle("لعبة صراحة ..")
@@ -259,7 +259,7 @@ const Za7f = [
 
 
  client.on('message', message => {
-   if (message.content.startsWith("f!عقاب")) {
+   if (message.content.startsWith("sr!عقاب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -316,7 +316,7 @@ message.channel.sendEmbed(cat);
 ]
 
  client.on('message', message => {
-   if (message.content.startsWith("f!كت تويت")) {
+   if (message.content.startsWith("sr!كت تويت")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -344,7 +344,7 @@ const secreT = [
 
 
  client.on('message', message => {
-   if (message.content.startsWith("f!خواطر")) {
+   if (message.content.startsWith("sr!خواطر")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -364,7 +364,7 @@ const Love = [  "**احبك / عدد قطرات المـــطر والشجر و
 
 
  client.on('message', message => {
-   if (message.content.startsWith("f!حب")) {
+   if (message.content.startsWith("sr!حب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -431,7 +431,7 @@ const zead = [
    '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدني في نشر البوت وادخل هذا السيرفر  ***'
 ]
  client.on('message', message => {
- if (message.content.startsWith('f!مريم')) {
+ if (message.content.startsWith('sr!مريم')) {
   var mariam= new Discord.RichEmbed()
   .setTitle("لعبة مريم ..")
   .setColor('RANDOM')
@@ -448,7 +448,7 @@ const zead = [
 
 
 
-            var prefix = "f!";
+            var prefix = "sr!";
 client.on('message', message => {
          if (message.content === prefix + "dt") {
          if (!message.channel.guild) return message.reply('** This command only for servers **');  
@@ -515,7 +515,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-var prefix = "f!";
+var prefix = "sr!";
 
     if (message.author.id === client.user.id) return;
     if (message.guild) {
@@ -544,7 +544,7 @@ return;
 
     
 client.on('message', message => {
-     var prefix = "f!"
+     var prefix = "sr!"
 if (message.content.startsWith(prefix + "uptime")) {
     let uptime = client.uptime;
 
@@ -643,7 +643,7 @@ if(command === `${prefix}message`) {
 });
   
    client.on("message", msg => {
-           var prefix = "f!";
+           var prefix = "sr!";
   if(msg.content.startsWith (prefix + "id")) {
     if(!msg.channel.guild) return msg.reply('**:x: اسف لكن هذا الامر للسيرفرات فقط **');         
       const embed = new Discord.RichEmbed();
@@ -678,7 +678,7 @@ client.on('message', message => {
   
 
   
-    var prefix = "f!";
+    var prefix = "sr!";
 var cats = ["https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg","http://www.dogbazar.org/wp-content/uploads/2014/09/british-bull-dog-puppies.jpg","http://cdn2-www.dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/standing-7.jpg","http://cdn.akc.org/Marketplace/Breeds/German_Shepherd_Dog_SERP.jpg","https://animalso.com/wp-content/uploads/2016/12/black-german-shepherd_2.jpg","https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpg","https://www.petfinder.com/wp-content/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg","http://www.i-love-cats.com/images/2015/04/12/cat-wallpaper-38.jpg","https://www.aspca.org/sites/default/files/cat-care_urine-marking_main-image.jpg","https://s-media-cache-ak0.pinimg.com/originals/f0/3b/76/f03b7614dfadbbe4c2e8f88b69d12e04.jpg","http://www.rd.com/wp-content/uploads/sites/2/2016/04/15-cat-wants-to-tell-you-attention.jpg","https://www.thelocal.de/userdata/images/article/fa6fd5014ccbd8f4392f716473ab6ff354f871505d9128820bbb0461cce1d645.jpg","https://www.adelaidezoo.com.au/wp-content/uploads/sites/2/animals/GiantPanda3Slider.jpg","http://imagem.band.com.br/f_230168.jpg"]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
@@ -690,7 +690,7 @@ message.channel.sendEmbed(cat);
 });
 
    client.on("message", message => {
-    const prefix = "f!"
+    const prefix = "sr!"
               
           if(!message.channel.guild) return;
    if(message.author.bot) return;
@@ -727,7 +727,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content.startsWith("f!stats")) {
+    if (message.content.startsWith("sr!stats")) {
     message.channel.send({
         embed: new Discord.RichEmbed()
             .addField('Uptime', timeCon(process.uptime()), true)
@@ -750,7 +750,7 @@ function timeCon(time) {
 }
 
 client.on('message', message => {
-    var prefix = "f!"
+    var prefix = "sr!"
     let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
 
@@ -794,7 +794,7 @@ message.channel.sendMessage('تـم إنـشاء روم كـتابـي')
 
 
 client.on("message", (message) => {
-if (message.content.startsWith("f!cv")) {
+if (message.content.startsWith("sr!cv")) {
             if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
         let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(' '), 'voice');
@@ -805,7 +805,7 @@ if (message.content.startsWith("f!cv")) {
 
 
 client.on("message", (message) => {
-    if (message.content.startsWith('f!delet')) {
+    if (message.content.startsWith('sr!delet')) {
         if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
 
         let args = message.content.split(' ').slice(1);
@@ -815,40 +815,9 @@ client.on("message", (message) => {
     }
 });
 
- client.on('message' , message => {
-
-    if (message.content === "f!invite") {
-        if(!message.channel.guild) return message.reply('**الآمر فقط في السيرفرات**');
-     const embed = new Discord.RichEmbed()
- .setColor("RANDOM")
- .setThumbnail(client.user.avatarURL)     
- .setDescription("Add me" + `
- **
-رابط البوت | https://goo.gl/87T4XW
- **
-`);
-  message.author.sendEmbed(embed);
-   }
-});
 
 
-  client.on('message' , message => {
-
-    if (message.content === "f!support") {
-        if(!message.channel.guild) return message.reply('**الآمر فقط في السيرفرات**');
-     const embed = new Discord.RichEmbed()
- .setColor("RANDOM")
- .setThumbnail(client.user.avatarURL)     
- .setDescription(" ***welcome To server support*** " + `
- **
-رابط السيرفر | https://discord.gg/sn8bVUY
- **
-`);
-  message.author.sendEmbed(embed);
-   }
-});
-
-var prefix = "f!";
+var prefix = "sr!";
 
 client.on('message', message => {
   if (message.author.bot) return;
@@ -966,7 +935,7 @@ client.on("message", message => {
   
   let command = message.content.split(" ")[0];
   
-  if (command === "f!mute") {
+  if (command === "sr!mute") {
         if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply("** لا يوجد لديك برمشن 'Manage Roles' **").catch(console.error);
   let user = message.mentions.users.first();
   let modlog = client.channels.find('name', 'mute-log');
@@ -1002,7 +971,7 @@ return message.reply("**:white_check_mark: .. تم اعطاء العضو ميو�
   
   let command = message.content.split(" ")[0];
   
-  if (command === "f!unmute") {
+  if (command === "sr!unmute") {
         if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply("** لا يوجد لديك برمشن 'Manage Roles' **").catch(console.error);
   let user = message.mentions.users.first();
   let modlog = client.channels.find('name', 'mute-log');
@@ -1033,7 +1002,7 @@ return message.reply("**:white_check_mark: .. تم فك الميوت عن الش
 
 client.on('message', message => {
 
-       if(message.content === prefix + "f!mutechannel") {
+       if(message.content === prefix + "sr!mutechannel") {
                            if(!message.channel.guild) return message.reply('** This command only for servers**');
 
    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply(' **__ليس لديك صلاحيات__**');
@@ -1045,7 +1014,7 @@ client.on('message', message => {
               });
                 }
 //viper
-    if(message.content === prefix + "f!unmutechannel") {
+    if(message.content === prefix + "sr!unmutechannel") {
                         if(!message.channel.guild) return message.reply('** This command only for servers**');
 
    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**__ليس لديك صلاحيات__**');
@@ -1062,7 +1031,7 @@ client.on('message', message => {
 });
 
 
-var prefix = "f!"
+var prefix = "sr!"
 client.on('message', message => {
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
@@ -1104,7 +1073,7 @@ client.on('message', message => {
  
 
  
-var prefix = "f!"
+var prefix = "sr!"
 client.on('message', message => {
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
@@ -1167,7 +1136,7 @@ client.on("message", message => {
   
 client.on('message', message => {
 
-if (message.content.startsWith("f!add.r")) {
+if (message.content.startsWith("sr!add.r")) {
              if(!message.channel.guild) return message.reply('**Commands in the server**');
         if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply('⚠ **You do not have permissions**');
         let args = message.content.split(" ").slice(1);
@@ -1185,7 +1154,7 @@ if (message.content.startsWith("f!add.r")) {
 //اومر الكونسل و البوت//
 
 client.on('message', message => {
-    if(message.content === "f!bot") {
+    if(message.content === "sr!bot") {
         const embed = new Discord.RichEmbed()
         .setColor("#00FFFF")
         .setDescription(`**Servers**🌐 **__${client.guilds.size}__**
@@ -1263,7 +1232,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', message=>{
-    if (message.content ===  'f!color 50'){
+    if (message.content ===  'sr!color 50'){
               if(!message.channel.guild) return;
             if (message.member.hasPermission('MANAGE_ROLES')){
                 setInterval(function(){})
@@ -1280,7 +1249,7 @@ client.on('message', message=>{
 
 client.on('message', function(message) {
                   if(!message.channel.guild) return;
-    if(message.content ===  'f!color 100') {
+    if(message.content ===  'sr!color 100') {
         if(message.member.hasPermission('MANAGE_ROLES')) {
             setInterval(function(){})
             message.channel.send('جاري عمل الالوان |✅')
@@ -1291,7 +1260,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', message=>{
-    if (message.content ===  'f!color 100'){
+    if (message.content ===  'sr!color 100'){
               if(!message.channel.guild) return;
             if (message.member.hasPermission('MANAGE_ROLES')){
                 setInterval(function(){})
@@ -1308,7 +1277,7 @@ client.on('message', message=>{
 
 client.on('message', function(message) {
                   if(!message.channel.guild) return;
-    if(message.content ===  'f!color 140') {
+    if(message.content ===  'sr!color 140') {
         if(message.member.hasPermission('MANAGE_ROLES')) {
             setInterval(function(){})
             message.channel.send('جاري عمل الالوان |✅')
@@ -1319,7 +1288,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', message=>{
-    if (message.content ===  'f!color 140'){
+    if (message.content ===  'sr!color 140'){
               if(!message.channel.guild) return;
             if (message.member.hasPermission('MANAGE_ROLES')){
                 setInterval(function(){})
@@ -12516,7 +12485,7 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 	}
 
 
-  if (message.content === 'f!colors') {
+  if (message.content === 'sr!colors') {
       if (!message.channel.guild) return;
     message.channel.sendFile('URL-Of-colors-Img');
   }
