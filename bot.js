@@ -488,7 +488,7 @@ const zead = [
 
 
 
-            var prefix = "sr
+
 client.on('message', message => {
          if (message.content === prefix + "dt") {
          if (!message.channel.guild) return message.reply('** This command only for servers **');  
