@@ -1068,7 +1068,7 @@ client.on('message', message => {
 });
 
 
-var prefix = "sr!"
+
 client.on('message', message => {
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
@@ -1110,7 +1110,7 @@ client.on('message', message => {
  
 
  
-var prefix = "sr!"
+
 client.on('message', message => {
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
