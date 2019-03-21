@@ -854,7 +854,7 @@ client.on("message", (message) => {
 
 
 
-var prefix = "sr!";
+
 
 client.on('message', message => {
   if (message.author.bot) return;
