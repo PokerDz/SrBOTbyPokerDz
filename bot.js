@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '.'
+const prefix = 'dz!'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`By Poker`,"http://twitch.tv/S-F")
+client.user.setGame(`By ｍｏｏｈａ`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -35,7 +35,7 @@ client.on('ready', () => {
 
 client.on('ready', () => {
 
-    client.user.setActivity("By Poker | Beta V.0.0.2",{type: 'Streaming'})
+    client.user.setActivity("By ｍｏｏｈａ",{type: 'Streaming'})
 
 });
 
@@ -49,7 +49,7 @@ client.on('ready', () => {
 
 
 client.on("message", message => {
- if (message.content === "sr!help") {
+ if (message.content === "dz!help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -60,9 +60,10 @@ Special orders ان برفكس الاوامر المميزه او
 
 يختلف عن جميع الاوامر 
 Special orders برفكس الاوامر المميزه او 
-sr!!
+dz!
 اما برفكس باقي الاوامر
-sr!
+dz!
+BY mooha
 ***
 `)
 
@@ -75,7 +76,7 @@ message.author.sendEmbed(embed)
  
  
 client.on("message", message => {
- if (message.content === "sr!help") {
+ if (message.content === "dz!help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -83,7 +84,7 @@ client.on("message", message => {
 
 ***__وصف عن البوت__***
 **
-SR bot 
+DZ elites 
 متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
 خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
 بصوره
@@ -98,58 +99,58 @@ SR bot
 
         ***__General orders__***
 **
-『sr!id / معلومات عن حسابك』
-『sr!draw / يكرر كلامك في صوره』
-『sr!embed / يكرر كلامك بمبيد』
-『sr!roles / يعرض لك الرتب و عددها』
-『sr!rooms / يعرض لك الرومات وعددها』
-『sr!server / معلومات عن السيرفر』
-『sr!animal / يعطيك صور حيوانات』
-『sr!image / يعرض صوره السيرفر』
-『sr!avatar / يعرض صورتك او صوره شخص』
-『sr!time / يعرض لك الوقت』
-『sr!date / يعرض لك التاريخ』
-『sr!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
+『dz!id / معلومات عن حسابك』
+『dz!draw / يكرر كلامك في صوره』
+『dz!embed / يكرر كلامك بمبيد』
+『dz!roles / يعرض لك الرتب و عددها』
+『dz!rooms / يعرض لك الرومات وعددها』
+『dz!server / معلومات عن السيرفر』
+『dz!animal / يعطيك صور حيوانات』
+『dz!image / يعرض صوره السيرفر』
+『dz!avatar / يعرض صورتك او صوره شخص』
+『dz!time / يعرض لك الوقت』
+『dz!date / يعرض لك التاريخ』
+『dz!dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
 **
 
         ***__Bot orders__***
 **
-『sr!ping / يعرض لك سرعه اتصال البوت』
-『sr!uptime / يعرض لك صار للبوت كم شغال』
-『sr!support / سيرفر الدعم القني و المساعده』
-『sr!invite / اضافه البوت』
-『sr!members / حاله الاعضاء』
-『sr!bot / معلومات عن البوت』
+『dz!ping / يعرض لك سرعه اتصال البوت』
+『dz!uptime / يعرض لك صار للبوت كم شغال』
+『dz!support / سيرفر الدعم القني و المساعده』
+『dz!invite / اضافه البوت』
+『dz!members / حاله الاعضاء』
+『dz!bot / معلومات عن البوت』
 **
 
         ***__Administrative Orders__***
 **
-『sr!kick / كيك』
-『sr!ban / بان』
-『sr!mute /ميوت』
-『sr!unmute /فك الميوت』
-『sr!mutechannel /قفل الشات』
-『sr!unmutechannel /فتح الشات』
-『sr!add.r / اضافه رتبه』
-『sr!delet / مسح روم』
-『sr!color 50 /انشاء 50 لون』
-『sr!color 100/انشاء 100 لون』
-『sr!color 140/انشاء 140 لوم』
-『sr!ct /انشاء روم كتابي』4
-『sr!cv /انشاء روم صوتي』
-『sr!bc /برودكاست』
+『dz!kick / كيك』
+『dz!ban / بان』
+『dz!mute /ميوت』
+『dz!unmute /فك الميوت』
+『dz!mutechannel /قفل الشات』
+『dz!unmutechannel /فتح الشات』
+『dz!add.r / اضافه رتبه』
+『dz!delet / مسح روم』
+『dz!color 50 /انشاء 50 لون』
+『dz!color 100/انشاء 100 لون』
+『dz!color 140/انشاء 140 لوم』
+『dz!ct /انشاء روم كتابي』4
+『dz!cv /انشاء روم صوتي』
+『dz!bc /برودكاست』
 **
 
 
         ***__Games orders__***
  **       
-『sr!لعبه صراحه / صراحه』
-『sr!لعبه مريم / مريم』
-『sr!لعبه خواطر / خواطر』
-『sr!يعطيك شعر عن الحب / حب』
-『sr!يخيرك بين شي وشي / لو خيروك』
-『sr!يعطيك عقاب و لازم تنفذه / عقاب』
-『sr!لعبه اسئله / كت تويت』
+『dz!لعبه صراحه / صراحه』
+『dz!لعبه مريم / مريم』
+『dz!لعبه خواطر / خواطر』
+『dz!يعطيك شعر عن الحب / حب』
+『dz!يخيرك بين شي وشي / لو خيروك』
+『dz!يعطيك عقاب و لازم تنفذه / عقاب』
+『dz!لعبه اسئله / كت تويت』
 **
    
         
@@ -227,7 +228,7 @@ const Sra7a = [
 	 'صراحه  |  ما هي أمنياتك المُستقبلية؟‏',
 ]
    client.on('message', message => {
- if (message.content.startsWith('sr!صراحه')) {
+ if (message.content.startsWith('dz!صراحه')) {
      if(!message.channel.guild) return message.reply('** This command only for servers **');
   var client= new Discord.RichEmbed()
   .setTitle("لعبة صراحة ..")
@@ -299,7 +300,7 @@ const Za7f = [
 
 
  client.on('message', message => {
-   if (message.content.startsWith("sr!عقاب")) {
+   if (message.content.startsWith("dz!عقاب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -356,7 +357,7 @@ message.channel.sendEmbed(cat);
 ]
 
  client.on('message', message => {
-   if (message.content.startsWith("sr!كت تويت")) {
+   if (message.content.startsWith("dz!كت تويت")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -384,7 +385,7 @@ const secreT = [
 
 
  client.on('message', message => {
-   if (message.content.startsWith("sr!خواطر")) {
+   if (message.content.startsWith("dz!خواطر")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -404,7 +405,7 @@ const Love = [  "**احبك / عدد قطرات المـــطر والشجر و
 
 
  client.on('message', message => {
-   if (message.content.startsWith("sr!حب")) {
+   if (message.content.startsWith("dz!حب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -471,7 +472,7 @@ const zead = [
    '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدني في نشر البوت وادخل هذا السيرفر  ***'
 ]
  client.on('message', message => {
- if (message.content.startsWith('sr!مريم')) {
+ if (message.content.startsWith('dz!مريم')) {
   var mariam= new Discord.RichEmbed()
   .setTitle("لعبة مريم ..")
   .setColor('RANDOM')
@@ -555,7 +556,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-var prefix = "sr!";
+var prefix = "dz!";
 
     if (message.author.id === client.user.id) return;
     if (message.guild) {
@@ -563,7 +564,7 @@ var prefix = "sr!";
     let args = message.content.split(' ').slice(1).join(' ');
 if(message.content.split(' ')[0] == prefix + 'bc') {
     if (!args[1]) {
-message.channel.send("**sr!bc <message>**");
+message.channel.send("**dz!bc <message>**");
 return;
 }
         message.guild.members.forEach(m => {
@@ -584,7 +585,7 @@ return;
 
     
 client.on('message', message => {
-     var prefix = "sr!"
+     var prefix = "dz!"
 if (message.content.startsWith(prefix + "uptime")) {
     let uptime = client.uptime;
 
@@ -628,7 +629,7 @@ if (message.content.startsWith(prefix + "uptime")) {
 });
 
 client.on('message', function(msg) {
-         var prefix = "sr!"
+         var prefix = "dz!"
     if(msg.content.startsWith (prefix  + 'server')) {
       let embed = new Discord.RichEmbed()
       .setColor('RANDOM')
@@ -683,7 +684,7 @@ if(command === `${prefix}message`) {
 });
   
    client.on("message", msg => {
-           var prefix = "sr!";
+           var prefix = "dz!";
   if(msg.content.startsWith (prefix + "id")) {
     if(!msg.channel.guild) return msg.reply('**:x: اسف لكن هذا الامر للسيرفرات فقط **');         
       const embed = new Discord.RichEmbed();
@@ -703,7 +704,7 @@ if(command === `${prefix}message`) {
 });
 
 client.on('message', message => {
-    if(message.content == 'sr!member') {
+    if(message.content == 'dz!member') {
     const embed = new Discord.RichEmbed()
     .setDescription(`**Members info🔋
 :green_heart: online:   ${message.guild.members.filter(m=>m.presence.status == 'online').size}
@@ -727,7 +728,7 @@ message.channel.sendEmbed(cat);
 });
 
    client.on("message", message => {
-    const prefix = "sr!"
+    const prefix = "dz!"
               
           if(!message.channel.guild) return;
    if(message.author.bot) return;
@@ -746,7 +747,7 @@ message.channel.sendEmbed(cat);
   });
 
 client.on('message', message => {
-    if (message.content.startsWith("sr!avatar")) {
+    if (message.content.startsWith("dz!avatar")) {
         var mentionned = message.mentions.users.first();
     var x5bzm;
       if(mentionned){
@@ -764,7 +765,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content.startsWith("sr!stats")) {
+    if (message.content.startsWith("dz!stats")) {
     message.channel.send({
         embed: new Discord.RichEmbed()
             .addField('Uptime', timeCon(process.uptime()), true)
@@ -787,7 +788,7 @@ function timeCon(time) {
 }
 
 client.on('message', message => {
-    var prefix = "sr!"
+    var prefix = "dz!"
     let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
 
@@ -820,7 +821,7 @@ message.channel.sendFile(canvas.toBuffer());
 });
 
 client.on("message", (message) => {
-if (message.content.startsWith("sr!ct")) {
+if (message.content.startsWith("dz!ct")) {
             if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
         let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(' '), 'text');
@@ -831,7 +832,7 @@ message.channel.sendMessage('تـم إنـشاء روم كـتابـي')
 
 
 client.on("message", (message) => {
-if (message.content.startsWith("sr!cv")) {
+if (message.content.startsWith("dz!cv")) {
             if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
         let args = message.content.split(" ").slice(1);
     message.guild.createChannel(args.join(' '), 'voice');
@@ -842,7 +843,7 @@ if (message.content.startsWith("sr!cv")) {
 
 
 client.on("message", (message) => {
-    if (message.content.startsWith('sr!delet')) {
+    if (message.content.startsWith('dz!delet')) {
         if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.reply("You Don't Have `MANAGE_CHANNELS` Premissions ");
 
         let args = message.content.split(' ').slice(1);
@@ -972,7 +973,7 @@ client.on("message", message => {
   
   let command = message.content.split(" ")[0];
   
-  if (command === "sr!mute") {
+  if (command === "dz!mute") {
         if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply("** لا يوجد لديك برمشن 'Manage Roles' **").catch(console.error);
   let user = message.mentions.users.first();
   let modlog = client.channels.find('name', 'mute-log');
@@ -1008,7 +1009,7 @@ return message.reply("**:white_check_mark: .. تم اعطاء العضو ميو�
   
   let command = message.content.split(" ")[0];
   
-  if (command === "sr!unmute") {
+  if (command === "dz!unmute") {
         if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply("** لا يوجد لديك برمشن 'Manage Roles' **").catch(console.error);
   let user = message.mentions.users.first();
   let modlog = client.channels.find('name', 'mute-log');
@@ -1039,7 +1040,7 @@ return message.reply("**:white_check_mark: .. تم فك الميوت عن الش
 
 client.on('message', message => {
 
-       if(message.content === prefix + "sr!mutechannel") {
+       if(message.content === prefix + "dz!mutechannel") {
                            if(!message.channel.guild) return message.reply('** This command only for servers**');
 
    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply(' **__ليس لديك صلاحيات__**');
@@ -1051,7 +1052,7 @@ client.on('message', message => {
               });
                 }
 //viper
-    if(message.content === prefix + "sr!unmutechannel") {
+    if(message.content === prefix + "dz!unmutechannel") {
                         if(!message.channel.guild) return message.reply('** This command only for servers**');
 
    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**__ليس لديك صلاحيات__**');
@@ -1078,7 +1079,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "sr!kick") {
+  if (command == "dz!kick") {
                if(!message.channel.guild) return message.reply('** This command only for servers**');
          
   if(!message.guild.member(message.author).hasPermission("KICK_MEMBERS")) return message.reply("**You Don't Have ` KICK_MEMBERS ` Permission**");
@@ -1120,7 +1121,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "sr!ban") {
+  if (command == "dz!ban") {
                if(!message.channel.guild) return message.reply('** This command only for servers**');
          
   if(!message.guild.member(message.author).hasPermission("BAN_MEMBERS")) return message.reply("**You Don't Have ` BAN_MEMBERS ` Permission**");
@@ -1173,7 +1174,7 @@ client.on("message", message => {
   
 client.on('message', message => {
 
-if (message.content.startsWith("sr!add.r")) {
+if (message.content.startsWith("dz!add.r")) {
              if(!message.channel.guild) return message.reply('**Commands in the server**');
         if (!message.member.hasPermission('MANAGE_ROLES')) return message.reply('⚠ **You do not have permissions**');
         let args = message.content.split(" ").slice(1);
@@ -1191,7 +1192,7 @@ if (message.content.startsWith("sr!add.r")) {
 //اومر الكونسل و البوت//
 
 client.on('message', message => {
-    if(message.content === "sr!bot") {
+    if(message.content === "dz!bot") {
         const embed = new Discord.RichEmbed()
         .setColor("#00FFFF")
         .setDescription(`**Servers**🌐 **__${client.guilds.size}__**
@@ -1208,7 +1209,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on('ready',  () => {
-  console.log('تم تشغيل :SRBot  ');
+  console.log('تم تشغيل :DZBot  ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -1216,7 +1217,7 @@ client.on('ready',  () => {
 
       client.on('message', message => {
                                 if(!message.channel.guild) return;
-                        if (message.content.startsWith('f!ping')) {
+                        if (message.content.startsWith('dz!ping')) {
                             if(!message.channel.guild) return;
                             var msg = `${Date.now() - message.createdTimestamp}`
                             var api = `${Math.round(client.ping)}`
@@ -1233,7 +1234,7 @@ client.on('ready',  () => {
 client.on('ready', function(){
     client.user.setStatus("dnd");
     var ms = 100000 ;
-    var setGame = [`sr!help Servers ${client.guilds.size} `];
+    var setGame = [`dz!help Servers ${client.guilds.size} `];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -1258,7 +1259,7 @@ client.user.setStatus("dnd");
 
 client.on('message', function(message) {
                   if(!message.channel.guild) return;
-    if(message.content ===  'sr!color 50') {
+    if(message.content ===  'dz!color 50') {
         if(message.member.hasPermission('MANAGE_ROLES')) {
             setInterval(function(){})
             message.channel.send('جاري عمل الالوان |✅')
@@ -1269,7 +1270,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', message=>{
-    if (message.content ===  'sr!color 50'){
+    if (message.content ===  'dz!color 50'){
               if(!message.channel.guild) return;
             if (message.member.hasPermission('MANAGE_ROLES')){
                 setInterval(function(){})
@@ -1286,7 +1287,7 @@ client.on('message', message=>{
 
 client.on('message', function(message) {
                   if(!message.channel.guild) return;
-    if(message.content ===  'sr!color 100') {
+    if(message.content ===  'dz!color 100') {
         if(message.member.hasPermission('MANAGE_ROLES')) {
             setInterval(function(){})
             message.channel.send('جاري عمل الالوان |✅')
@@ -1297,7 +1298,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', message=>{
-    if (message.content ===  'sr!color 100'){
+    if (message.content ===  'dz!color 100'){
               if(!message.channel.guild) return;
             if (message.member.hasPermission('MANAGE_ROLES')){
                 setInterval(function(){})
@@ -1314,7 +1315,7 @@ client.on('message', message=>{
 
 client.on('message', function(message) {
                   if(!message.channel.guild) return;
-    if(message.content ===  'sr!color 140') {
+    if(message.content ===  'dz!color 140') {
         if(message.member.hasPermission('MANAGE_ROLES')) {
             setInterval(function(){})
             message.channel.send('جاري عمل الالوان |✅')
@@ -1325,7 +1326,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', message=>{
-    if (message.content ===  'sr!color 140'){
+    if (message.content ===  'dz!color 140'){
               if(!message.channel.guild) return;
             if (message.member.hasPermission('MANAGE_ROLES')){
                 setInterval(function(){})
@@ -1342,106 +1343,106 @@ client.on('message', message=>{
 
 
 
-var x1 = "f!color 1"
-var x2 = "f!color 2"
-var x3 = "f!color 3"
-var x4 = "f!color 4"
-var x5 = "f!color 5"
-var x6 = "f!color 6"
-var x7 = "f!color 7"
-var x8 = "f!color 8"
-var x9 = "f!color 9"
-var x10 = "f!color 10"
-var x11 = "f!color 11"
-var x12 = "f!color 12"
-var x13 = "f!color 13"
-var x14 = "f!color 14"
-var x15 = "f!color 15"
-var x16 = "f!color 16"
-var x17 = "f!color 17"
-var x18 = "f!color 18"
-var x19 = "f!color 19"
-var x20 = "f!color 20"
-var x21 = "f!color 21"
-var x22 = "f!color 22"
-var x23 = "f!color 23"
-var x24 = "f!color 24"
-var x25 = "f!color 25"
-var x26 = "f!color 26"
-var x27 = "f!color 27"
-var x28 = "f!color 28"
-var x29 = "f!color 29"
-var x30 = "f!color 30"
-var x31 = "f!color 31"
-var x32 = "f!color 32"
-var x33 = "f!color 33"
-var x34 = "f!color 34"
-var x35 = "f!color 35"
-var x36 = "f!color 36"
-var x37 = "f!color 37"
-var x38 = "f!color 38"
-var x39 = "f!color 39"
-var x40 = "f!color 40"
-var x41 = "f!color 41"
-var x42 = "f!color 42"
-var x43 = "f!color 43"
-var x44 = "f!color 44"
-var x45 = "f!color 45"
-var x46 = "f!color 46"
-var x47 = "f!color 47"
-var x48 = "f!color 48"
-var x49 = "f!color 49"
-var x50 = "f!color 50"
-var x51 = "f!color 51"
-var x52 = "f!color 52"
-var x53 = "f!color 53"
-var x54 = "f!color 54"
-var x55 = "f!color 55"
-var x56 = "f!color 56"
-var x57 = "f!color 57"
-var x58 = "f!color 58"
-var x59 = "f!color 59"
-var x60 = "f!color 60"
-var x61 = "f!color 61"
-var x62 = "f!color 62"
-var x63 = "f!color 63"
-var x64 = "f!color 64"
-var x65 = "f!color 65"
-var x66 = "f!color 66"
-var x67 = "f!color 67"
-var x68 = "f!color 68"
-var x69 = "f!color 69"
-var x70 = "f!color 70"
-var x71 = "f!color 71"
-var x72 = "f!color 72"
-var x73 = "f!color 73"
-var x74 = "f!color 74"
-var x75 = "f!color 75"
-var x76 = "f!color 76"
-var x77 = "f!color 77"
-var x78 = "f!color 78"
-var x79 = "f!color 79"
-var x80 = "f!color 80"
-var x81 = "f!color 81"
-var x82 = "f!color 82"
-var x83 = "f!color 83"
-var x84 = "f!color 84"
-var x85 = "f!color 85"
-var x86 = "f!color 86"
-var x87 = "f!color 87"
-var x88 = "f!color 88"
-var x89 = "f!color 89"
-var x90 = "f!color 90"
-var x91 = "f!color 91"
-var x92 = "f!color 92"
-var x93 = "f!color 93"
-var x94 = "f!color 94"
-var x95 = "f!color 95"
-var x96 = "f!color 96"
-var x97 = "f!color 97"
-var x98 = "f!color 98"
-var x99 = "f!color 99"
-var x100 = "f!color 100"
+var x1 = "dz!color 1"
+var x2 = "dz!color 2"
+var x3 = "dz!color 3"
+var x4 = "dz!color 4"
+var x5 = "dz!color 5"
+var x6 = "dz!color 6"
+var x7 = "dz!color 7"
+var x8 = "dz!color 8"
+var x9 = "dz!color 9"
+var x10 = "dz!color 10"
+var x11 = "dz!color 11"
+var x12 = "dz!color 12"
+var x13 = "dz!color 13"
+var x14 = "dz!color 14"
+var x15 = "dz!color 15"
+var x16 = "dz!color 16"
+var x17 = "dz!color 17"
+var x18 = "dz!color 18"
+var x19 = "dz!color 19"
+var x20 = "dz!color 20"
+var x21 = "dz!color 21"
+var x22 = "dz!color 22"
+var x23 = "dz!color 23"
+var x24 = "dz!color 24"
+var x25 = "dz!color 25"
+var x26 = "dz!color 26"
+var x27 = "dz!color 27"
+var x28 = "dz!color 28"
+var x29 = "dz!color 29"
+var x30 = "dz!color 30"
+var x31 = "dz!color 31"
+var x32 = "dz!color 32"
+var x33 = "dz!color 33"
+var x34 = "dz!color 34"
+var x35 = "dz!color 35"
+var x36 = "dz!color 36"
+var x37 = "dz!color 37"
+var x38 = "dz!color 38"
+var x39 = "dz!color 39"
+var x40 = "dz!color 40"
+var x41 = "dz!color 41"
+var x42 = "dz!color 42"
+var x43 = "dz!color 43"
+var x44 = "dz!color 44"
+var x45 = "dz!color 45"
+var x46 = "dz!color 46"
+var x47 = "dz!color 47"
+var x48 = "dz!color 48"
+var x49 = "dz!color 49"
+var x50 = "dz!color 50"
+var x51 = "dz!color 51"
+var x52 = "dz!color 52"
+var x53 = "dz!color 53"
+var x54 = "dz!color 54"
+var x55 = "dz!color 55"
+var x56 = "dz!color 56"
+var x57 = "dz!color 57"
+var x58 = "dz!color 58"
+var x59 = "dz!color 59"
+var x60 = "dz!color 60"
+var x61 = "dz!color 61"
+var x62 = "dz!color 62"
+var x63 = "dz!color 63"
+var x64 = "dz!color 64"
+var x65 = "dz!color 65"
+var x66 = "dz!color 66"
+var x67 = "dz!color 67"
+var x68 = "dz!color 68"
+var x69 = "dz!color 69"
+var x70 = "dz!color 70"
+var x71 = "dz!color 71"
+var x72 = "dz!color 72"
+var x73 = "dz!color 73"
+var x74 = "dz!color 74"
+var x75 = "dz!color 75"
+var x76 = "dz!color 76"
+var x77 = "dz!color 77"
+var x78 = "dz!color 78"
+var x79 = "dz!color 79"
+var x80 = "dz!color 80"
+var x81 = "dz!color 81"
+var x82 = "dz!color 82"
+var x83 = "dz!color 83"
+var x84 = "dz!color 84"
+var x85 = "dz!color 85"
+var x86 = "dz!color 86"
+var x87 = "dz!color 87"
+var x88 = "dz!color 88"
+var x89 = "dz!color 89"
+var x90 = "dz!color 90"
+var x91 = "dz!color 91"
+var x92 = "dz!color 92"
+var x93 = "dz!color 93"
+var x94 = "dz!color 94"
+var x95 = "dz!color 95"
+var x96 = "dz!color 96"
+var x97 = "dz!color 97"
+var x98 = "dz!color 98"
+var x99 = "dz!color 99"
+var x100 = "dz!color 100"
 
 client.on('message', message => {
 	if (message.content === x1) {
@@ -12522,7 +12523,7 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 	}
 
 
-  if (message.content === 'sr!colors') {
+  if (message.content === 'dz!colors') {
       if (!message.channel.guild) return;
     message.channel.sendFile('URL-Of-colors-Img');
   }
